@@ -1,0 +1,17 @@
+@import url('./vendor/normalize.css');
+@import url('./vendor/fonts/inter/inter.css');
+@import url('./vendor/fonts/dm-mono/dm-mono.css');
+@import url('./vendor/fonts/audiowide/audiowide.css');
+
+@import url('./blocks/page.css');
+@import url('./blocks/header.css');
+@import url('./blocks/labels.css');
+@import url('./blocks/collection.css');
+@import url('./blocks/artists.css');
+@import url('./blocks/story.css');
+@import url('./blocks/roadmap.css');
+@import url('./blocks/logoholder.css');
+@import url('./blocks/questions.css');
+@import url('./blocks/team.css');
+@import url('./blocks/discord.css');
+@import url('./blocks/footer.css');
