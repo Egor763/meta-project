@@ -1,0 +1,40 @@
+.header {
+  width: 1440px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo {
+  width: 123px;
+  height: 32px;
+  margin-right: 40px;
+}
+
+.header__container {
+  width: 350px;
+  display: flex;
+  gap: 40px;
+  margin-right: 487px;
+}
+
+.header__text {
+  line-height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'DM-Mono';
+}
+
+.header__icons {
+  width: 180px;
+  height: 36px;
+  list-style: none;
+  display: flex;
+  gap: 12px;
+}
+
+.header__icon {
+  width: 36px;
+  height: 36px;
+}
