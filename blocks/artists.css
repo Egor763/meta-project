@@ -1,0 +1,45 @@
+.artists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artists__title {
+  width: 394px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  line-height: 88px;
+  font-size: 79px;
+  font-weight: 400;
+  font-family: 'Audiowide';
+}
+
+.artists__table {
+  width: 1260px;
+  height: 678px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin-left: 40px;
+  align-self: flex-start;
+}
+
+.artists__table-cell {
+  width: 245px;
+  height: 309px;
+}
+
+.artists__table-image {
+  width: 245px;
+  height: 245px;
+}
+
+.artsts__table-text {
+  width: 230px;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'DM Mono';
+  display: flex;
+  justify-content: center;
+}
