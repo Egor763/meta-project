@@ -1,0 +1,124 @@
+.roadmap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.roadmap__image {
+  width: 1440px;
+  height: 240px;
+}
+
+.roadmap__title {
+  width: 227px;
+  margin-top: 118px;
+  margin-bottom: 106px;
+  line-height: 45px;
+  font-size: 38px;
+  font-weight: 400;
+  font-family: 'Audiowide';
+}
+
+.roadmap__list {
+  width: 540px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.roadmap__card {
+  border: 1px solid red;
+  width: 100%;
+  height: 271px;
+  cursor: pointer;
+  background-color: #222;
+  z-index: 3;
+}
+
+.roadmap__card-header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  /* align-items: center; */
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.roadmap__card-main {
+  border: 1px solid red;
+  width: 538px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 12px;
+  box-sizing: border-box;
+}
+
+.roadmap__number {
+  width: 45px;
+  height: 45px;
+  line-height: 28px;
+  font-size: 28px;
+  font-weight: 400;
+  font-family: 'DM Mono';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+  border: 1px solid #8dfd1b;
+  color: #8dfd1b;
+}
+
+.roadmap__card:focus > .roadmap__card-header > .roadmap__number {
+  background: #8dfd1b;
+  color: black;
+}
+
+.roadmap__text {
+  width: 114px;
+  color: #8dfd1b;
+  line-height: 12px;
+  font-size: 8px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: 'DM Mono';
+}
+
+.roadmap__card-title {
+  width: 234px;
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'DM Mono';
+}
+
+.roadmap__card-text {
+  border: 1px solid red;
+  width: 298px;
+  line-height: 24px;
+  font-size: 11px;
+  font-weight: 400;
+  font-family: 'Inter';
+}
+
+.roadmap__card-text:first-child {
+  margin-left: 22px;
+  margin-bottom: 16px;
+}
+
+.roadmap__card-image {
+  border: 1px solid red;
+  width: 129px;
+  height: 129px;
+  position: absolute;
+  top: 30px;
+  right: 12px;
+}
+
+.roadmap__green {
+  border-left: 1px solid #8dfd1b;
+  height: 40px;
+  margin: 45px 0;
+}
