@@ -1,0 +1,70 @@
+.team {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.team__title {
+  line-height: 88px;
+  font-size: 79px;
+  font-weight: 400;
+  font-family: 'Audiowide';
+  width: 1813px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: -122px;
+}
+
+.team__cards-container {
+  margin-top: 210px;
+  width: 1160px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.team__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team__card-name {
+  margin: 19px 0 18px;
+  line-height: 28px;
+  font-size: 21px;
+  font-weight: 400;
+  font-family: 'DM Mono';
+}
+
+.team__card-proffesion {
+  line-height: 12px;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: 'DM Mono';
+}
+
+.team__card-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 84px;
+  margin: 22px 0;
+}
+
+.team__card-icon {
+  width: 36px;
+  height: 36px;
+}
+
+.team__card-text {
+  width: 238px;
+  line-height: 19px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Inter';
+  text-align: center;
+}
