@@ -12,3 +12,7 @@
   flex-direction: column;
   align-items: center; */
 }
+
+.page__questions {
+  margin: 245px 0 115px 99px;
+}
