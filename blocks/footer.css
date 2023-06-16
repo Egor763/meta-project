@@ -1,0 +1,95 @@
+.footer {
+  background-color: #42006a;
+  width: 1440px;
+  height: 338px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.footer__container {
+  width: 208px;
+}
+
+.footer__logo {
+  width: 103px;
+  height: 24px;
+  margin-bottom: 70px;
+}
+
+.footer__copyright {
+  width: 200px;
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'DM Mono';
+}
+
+.footer__texts {
+  width: 90px;
+}
+
+.footer__text {
+  width: 90px;
+  margin-bottom: 29px;
+  line-height: 19px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'DM Mono';
+}
+
+.footer__text:last-child {
+  margin: 0;
+}
+
+.footer__texts-container {
+  width: 110px;
+}
+
+.footer__text-item {
+  width: 110px;
+  margin-bottom: 29px;
+  line-height: 19px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'DM Mono';
+}
+
+.footer__text-item:last-child {
+  margin: 0;
+}
+
+.footer__info {
+  width: 208px;
+  align-self: flex-start;
+  margin-top: 105px;
+}
+
+.footer__text-info {
+  width: 208px;
+  margin-bottom: 29px;
+  line-height: 15px;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'DM Mono';
+}
+
+.footer__text-info:last-child {
+  margin: 0;
+}
+
+.footer__icons {
+  width: 180px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  height: 36px;
+  align-self: flex-start;
+  margin-top: 105px;
+}
+
+.footer__icon {
+  width: 36px;
+  height: 36px;
+}
