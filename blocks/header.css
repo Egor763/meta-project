@@ -10,13 +10,17 @@
   width: 123px;
   height: 32px;
   margin-right: 40px;
+  margin-top: 45px;
+  margin-left: 10px;
 }
 
 .header__container {
   width: 350px;
   display: flex;
-  gap: 40px;
-  margin-right: 487px;
+  gap: 60px;
+  margin-right: 450px;
+  margin-top: 35px;
+  margin-left: 10px;
 }
 
 .header__text {
@@ -32,6 +36,7 @@
   list-style: none;
   display: flex;
   gap: 12px;
+  margin-top: 40px;
 }
 
 .header__icon {

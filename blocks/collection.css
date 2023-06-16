@@ -15,6 +15,7 @@
   font-size: 38px;
   font-weight: 400;
   font-family: 'Audiowide';
+  margin-left: 66px;
 }
 
 .collection__subtitle {
@@ -25,6 +26,7 @@
   font-family: 'Audiowide';
   margin-bottom: 41px;
   color: #a8a8a8;
+  margin-left: 66px;
 }
 
 .collection__image {
@@ -74,7 +76,7 @@
   font-size: 21px;
   font-weight: 400;
   font-family: 'DM Mono';
-  margin-bottom: 32px;
+  margin-bottom: 25px;
   position: relative;
 }
 
