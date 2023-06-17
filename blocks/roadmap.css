@@ -8,6 +8,7 @@
 .roadmap__image {
   width: 1440px;
   height: 240px;
+  margin-top: 120px;
 }
 
 .roadmap__title {
@@ -116,5 +117,5 @@
 .roadmap__green {
   border-left: 1px solid #8dfd1b;
   height: 40px;
-  margin: 45px 0;
+  margin: 65px 0;
 }

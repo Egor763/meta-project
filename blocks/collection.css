@@ -47,7 +47,7 @@
 .collection__text {
   width: 551px;
   line-height: 26px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   font-family: 'Inter';
   margin-bottom: 18px;
@@ -98,5 +98,5 @@
   justify-content: center;
   align-items: center;
   border: 1px solid green;
-  margin-top: 36px;
+  margin-top: -20px;
 }

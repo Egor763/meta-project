@@ -7,13 +7,14 @@
 
 .logoholder__text {
   width: 96px;
-  margin-top: 240px;
+  margin-top: 310px;
   line-height: 12px;
   font-size: 11px;
   font-weight: 400;
   letter-spacing: 1px;
   font-family: 'DM Mono';
   color: #8dfd1b;
+  margin-left: 80px;
 }
 
 .logoholder__container {
@@ -24,5 +25,5 @@
   grid-template-columns: repeat(3, 322px);
   grid-template-rows: repeat(2, 30px);
   gap: 60px 85px;
-  margin-left: 40px;
+  margin-left: 90px;
 }
