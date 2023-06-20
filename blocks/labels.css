@@ -1,7 +1,9 @@
 .labels {
   width: 1440px;
   height: 653px;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .labels__container {
@@ -9,9 +11,8 @@
   height: 429px;
   display: flex;
   flex-direction: column;
-  align-self: flex-start;
-  margin-top: 128px;
-  margin-left: 77px;
+  padding-left: 70px;
+  box-sizing: border-box;
 }
 
 .labels__title {
@@ -21,6 +22,7 @@
   font-size: 51px;
   font-weight: 400;
   font-family: 'Audiowide';
+  margin-top: 30px;
 }
 
 .labels__subtitlle {
@@ -32,10 +34,9 @@
   font-family: 'Inter';
 }
 
-.labels__link {
+.labels__button {
   width: 205px;
   height: 60px;
-  text-decoration: none;
   color: black;
   background-color: #8dfd1b;
   display: flex;
@@ -47,12 +48,13 @@
   font-family: 'DM-Mono';
 }
 
-.labels__image {
-  position: absolute;
+.labels__images {
   width: 870px;
-  height: 653px;
-  top: -125px;
-  right: 0;
-  bottom: 114px;
-  left: 580px;
+  display: flex;
+  align-items: center;
+}
+
+.labels__image {
+  width: calc(100% / 3);
+  height: 320px;
 }

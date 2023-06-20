@@ -10,7 +10,7 @@
 </head>
 
 <body class="root">
-  <header class="header">
+  <header class="header page__header">
     <img class="header__logo" src="images/meta_logo.png" alt="Логотип">
     <div class="header__container">
       <p class="header__text">Wave NFTs</p>
@@ -18,10 +18,10 @@
       <p class="header__text">Contact</p>
     </div>
     <ul class="header__icons">
-      <li class="header__item"><img class="header__icon" src="images/twitter.png" alt="Твиттер"></li>
-      <li class="header__item"><img class="header__icon" src="images/header_icon-2.png" alt="Иконка"></li>
-      <li class="header__item"><img class="header__icon" src="images/header_icon-3.png" alt="Иконка"></li>
-      <li class="header__item"><img class="header__icon" src="images/telegram.png" alt="Телеграм"></li>
+      <li class="header__icons-item"><img class="header__icon" src="images/twitter.png" alt="Твиттер"></li>
+      <li class="header__icons-item"><img class="header__icon" src="images/header_icon-2.png" alt="Иконка"></li>
+      <li class="header__icons-item"><img class="header__icon" src="images/header_icon-3.png" alt="Иконка"></li>
+      <li class="header__icons-item"><img class="header__icon" src="images/telegram.png" alt="Телеграм"></li>
     </ul>
   </header>
 
@@ -31,64 +31,71 @@
         <h2 class="labels__title">META RECORD LABEL</h2>
         <p class="labels__subtitlle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
           eros elementum tristique.</p>
-        <a class="labels__link" href="#">Learn More</a>
+
+        <button class="labels__button" type="button">Learn More</button>
       </div>
-      <img class="labels__image" src="images/wave-purple.png" alt="Картинка">
+      <div class="labels__images">
+        <img class="labels__image" src="images/wave-blue.png" alt="Картинка">
+        <img class="labels__image" src="images/wave-purple.png" alt="Картинка">
+        <img class="labels__image" src="images/wave-red.png" alt="Картинка">
+      </div>
     </section>
 
-    <section class="collection">
+    <section class="collection page__collection">
       <div class="collection__container">
-        <h2 class="collection__title">WAVE NFT</h2>
-        <p class="collection__subtitle">COLLECTION OF<br> 777</p>
+        <h2 class="collection__title">WAVE NFT <span class="collection__title_color_grey">COLLECTION OF 777</span>
+        </h2>
         <img class="collection__image" src="images/wave-blue.png" alt="Картинка">
       </div>
       <div class="collection__texts">
         <p class="collection__text-green">META WAVE NFT is your pass to Meta Record Label ecosystem. It is your access
           to our industry experts, established artists, and partners.
-        <div class="collection__green"></div>
         </p>
         <p class="collection__text">Hac habitasse platea dictumst vestibulum rhoncus est. Sit amet dictum sit amet
           justo. Tortor aliquam nulla facilisi cras.</p>
-        <p class="collection__text">Maecenas ultricies mi&nbsp;eget mauris pharetra. Sit amet consectetur adipiscing
-          elit ut&nbsp;aliquam purus. Porta nibh venenatis cras sed felis. Aenean vel elit scelerisque mauris
-          pellentesque pulvinar. Et&nbsp;malesuada fames ac&nbsp;turpis egestas sed tempus. Enim sit amet venenatis urna
+        <p class="collection__text">Maecenas ultricies mieget mauris pharetra. Sit amet consectetur adipiscing
+          elit utaliquam purus. Porta nibh venenatis cras sed felis. Aenean vel elit scelerisque mauris
+          pellentesque pulvinar. Etmalesuada fames ac turpis egestas sed tempus. Enim sit amet venenatis urna
           cursus eget.</p>
         <p class="collection__text">Maecenas ultricies mi eget mauris pharetra et ultrices. A condimentum vitae sapien
           pellentesque habitant morbi.</p>
+        <button class="collection__button" type="button">Get one on OpenSea</button>
       </div>
-      <a class="collection__link" href="#">Get one on OpenSea</a>
     </section>
 
     <section class="artists">
-      <h2 class="artists__title">ARTISTS</h2>
-      <div class="artists__table">
-        <div class="artists__table-cell">
-          <img class="artists__table-image" src="images/artist-1.png" alt="Картинка">
-          <p class="artsts__table-text">Mark Popson</p>
+      <h2 class="artists__title">ARTISTS
+        <span class="artists__title-repeat">ARTISTS</span>
+        <span class="artists__title-repeat">ARTISTS</span>
+      </h2>
+      <div class="artists__cards">
+        <div class="artists__card">
+          <img class="artists__card-image" src="images/artist-1.png" alt="Картинка">
+          <p class="artsts__card-text">Mark Popson</p>
         </div>
-        <div class="artists__table-cell">
-          <img class="artists__table-image" src="images/artist-2.png" alt="Картинка">
-          <p class="artsts__table-text">Pete Bentz</p>
+        <div class="artists__card">
+          <img class="artists__card-image" src="images/artist-2.png" alt="Картинка">
+          <p class="artsts__card-text">Pete Bentz</p>
         </div>
-        <div class="artists__table-cell">
-          <img class="artists__table-image" src="images/artist-3.png" alt="Картинка">
-          <p class="artsts__table-text">Daniela Youth</p>
+        <div class="artists__card">
+          <img class="artists__card-image" src="images/artist-3.png" alt="Картинка">
+          <p class="artsts__card-text">Daniela Youth</p>
         </div>
-        <div class="artists__table-cell">
-          <img class="artists__table-image" src="images/artist-4.png" alt="Картинка">
-          <p class="artsts__table-text">Roman Gore</p>
+        <div class="artists__card">
+          <img class="artists__card-image" src="images/artist-4.png" alt="Картинка">
+          <p class="artsts__card-text">Roman Gore</p>
         </div>
-        <div class="artists__table-cell">
-          <img class="artists__table-image" src="images/artist-5.png" alt="Картинка">
-          <p class="artsts__table-text">Tonya</p>
+        <div class="artists__card">
+          <img class="artists__card-image" src="images/artist-5.png" alt="Картинка">
+          <p class="artsts__card-text">Tonya</p>
         </div>
-        <div class="artists__table-cell">
-          <img class="artists__table-image" src="images/artist-6.png" alt="Картинка">
-          <p class="artsts__table-text">Ivor</p>
+        <div class="artists__card">
+          <img class="artists__card-image" src="images/artist-6.png" alt="Картинка">
+          <p class="artsts__card-text">Ivor</p>
         </div>
-        <div class="artists__table-cell">
-          <img class="artists__table-image" src="images/artist-7.png" alt="Картинка">
-          <p class="artsts__table-text">Somae Petit</p>
+        <div class="artists__card">
+          <img class="artists__card-image" src="images/artist-7.png" alt="Картинка">
+          <p class="artsts__card-text">Somae Petit</p>
         </div>
       </div>
     </section>
@@ -255,7 +262,6 @@
     </section>
 
     <section class="team">
-
       <h2 class="team__title">TEAM
         <span class="team__title-repeat">TEAM</span>
         <span class="team__title-repeat">TEAM</span>

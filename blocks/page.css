@@ -13,6 +13,14 @@
   align-items: center; */
 }
 
+.page__header {
+  margin: 48px auto 0;
+}
+
+.page__collection {
+  margin: 134px 0 105px 40px;
+}
+
 .page__questions {
   margin: 245px 0 115px 99px;
 }

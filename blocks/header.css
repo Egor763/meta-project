@@ -1,6 +1,6 @@
 .header {
-  width: 1440px;
-  height: 100px;
+  width: 1160px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,17 +10,13 @@
   width: 123px;
   height: 32px;
   margin-right: 40px;
-  margin-top: 45px;
-  margin-left: 10px;
 }
 
 .header__container {
   width: 350px;
   display: flex;
+  align-items: center;
   gap: 60px;
-  margin-right: 450px;
-  margin-top: 35px;
-  margin-left: 10px;
 }
 
 .header__text {
@@ -36,7 +32,7 @@
   list-style: none;
   display: flex;
   gap: 12px;
-  margin-top: 40px;
+  margin-left: auto;
 }
 
 .header__icon {
