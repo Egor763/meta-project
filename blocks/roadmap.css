@@ -21,7 +21,7 @@
   font-family: 'Audiowide';
 }
 
-.roadmap__list {
+.roadmap__cards {
   width: 540px;
   list-style: none;
   display: flex;
@@ -99,11 +99,15 @@
   font-size: 11px;
   font-weight: 400;
   font-family: 'Inter';
+  margin-bottom: 16px;
 }
 
 .roadmap__card-text:first-child {
   margin-left: 22px;
-  margin-bottom: 16px;
+}
+
+.roadmap__card-text:last-child {
+  margin-bottom: 0;
 }
 
 .roadmap__card-image {

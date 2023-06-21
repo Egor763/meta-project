@@ -8,9 +8,6 @@
   background-color: #000000;
   color: white;
   width: 1440px;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
 }
 
 .page__header {
@@ -19,6 +16,14 @@
 
 .page__collection {
   margin: 134px 0 105px 40px;
+}
+
+.page__story {
+  margin: 0 0 0 40px;
+}
+
+.page__logoholder {
+  margin-top: 305px;
 }
 
 .page__questions {

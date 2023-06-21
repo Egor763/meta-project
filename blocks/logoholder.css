@@ -7,7 +7,6 @@
 
 .logoholder__text {
   width: 96px;
-  margin-top: 310px;
   line-height: 12px;
   font-size: 11px;
   font-weight: 400;
@@ -17,7 +16,7 @@
   margin-left: 80px;
 }
 
-.logoholder__container {
+.logoholder__logs {
   width: 1160px;
   height: 120px;
   margin-top: 50px;
@@ -25,5 +24,5 @@
   grid-template-columns: repeat(3, 322px);
   grid-template-rows: repeat(2, 30px);
   gap: 60px 85px;
-  margin-left: 90px;
+  margin-left: 100px;
 }

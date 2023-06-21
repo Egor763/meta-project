@@ -34,7 +34,7 @@
 /* должно быть три круга: top, middle, bottom */
 .circle-top {
   position: absolute;
-  top: 129px;
+  top: 249px;
   left: 24px;
 }
 
@@ -46,6 +46,6 @@
 
 .circle-bottom {
   position: absolute;
-  top: 1058px;
+  top: 1415px;
   left: 24px;
 }
